@@ -7,7 +7,7 @@ const INIT_STATE = {
   checkCategories: "",
   findFact: [],
   favouriteFact: [],
-  isModal: true,
+  isModal: false,
 };
 const State = ({ children }) => {
   const [typeSearch, TypeSearch] = useState(INIT_STATE.typeSearch);
