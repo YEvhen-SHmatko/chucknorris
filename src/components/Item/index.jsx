@@ -35,7 +35,7 @@ const Item = ({ item, firstColor, secondColor }) => {
     <li
       className={Mobile ? Styles.Mobile_item : Styles.item}
       style={{
-        background: firstColor,
+        backgroundColor: firstColor,
       }}
     >
       <div>
@@ -59,7 +59,7 @@ const Item = ({ item, firstColor, secondColor }) => {
           <div
             className={Styles.chat}
             style={{
-              background: secondColor,
+              backgroundColor: secondColor,
             }}
           >
             <ChatOutlined />
@@ -91,7 +91,7 @@ const Item = ({ item, firstColor, secondColor }) => {
                           Mobile ? Styles.Mobile_category : Styles.category
                         }
                         style={{
-                          background: secondColor,
+                          backgroundColor: secondColor,
                         }}
                       >
                         {category}
@@ -106,7 +106,7 @@ const Item = ({ item, firstColor, secondColor }) => {
     </li>
   );
 };
-Item.propTypes = {
+Item.defaultProps = {
   firstColor: "#f8f8f8",
   secondColor: "#ffffff",
 };

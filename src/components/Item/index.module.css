@@ -1,6 +1,5 @@
 .item {
   width: 100%;
-  /* background: #f8f8f8; */
   border-radius: 20px;
   padding: 40px;
   margin-bottom: 20px;
@@ -18,7 +17,6 @@
 }
 .head * {
   margin: 0 !important;
-  /* padding: 0 !important; */
 }
 .head label {
   transform: translate(9px, -9px);
