@@ -1,0 +1,26 @@
+.Mobile_container {
+  width: 100%;
+  min-height: 100vh;
+  padding: 20px;
+  background: #f8f8f8;
+}
+.Tablet_container {
+  composes: Mobile_container;
+  padding: 40px;
+  max-width: 480px;
+}
+.Desktop_container {
+  composes: Tablet_container;
+}
+.title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+}
+.search_type {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 44px;
+}

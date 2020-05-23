@@ -1,0 +1,7 @@
+.Desktop_container {
+  margin-left: 0;
+}
+.NotDesktop_container {
+  display: flex;
+  justify-content: flex-end;
+}

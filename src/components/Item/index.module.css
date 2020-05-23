@@ -1,0 +1,92 @@
+.item {
+  width: 100%;
+  /* background: #f8f8f8; */
+  border-radius: 20px;
+  padding: 40px;
+  margin-bottom: 20px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.Mobile_item {
+  composes: item;
+  padding: 30px;
+}
+.head {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.head * {
+  margin: 0 !important;
+  /* padding: 0 !important; */
+}
+.head label {
+  transform: translate(9px, -9px);
+}
+.body {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.chat {
+  width: 42px;
+  height: 42px;
+  background: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrap {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 20px;
+}
+.link {
+  color: #ababab;
+  font-size: 10px;
+}
+.link a {
+  color: #8ea7ff;
+}
+.link svg {
+  fill: #8ea7ff;
+  width: 10px;
+  height: 10px;
+}
+.value {
+  padding-top: 8px;
+  padding-bottom: 30px;
+  font-weight: normal;
+  font-size: 18px;
+}
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -4px;
+}
+.Mobile_categories {
+  composes: categories;
+  padding-top: 1rem;
+}
+.category {
+  margin: 4px;
+  padding: 6px 20px;
+  background: #ffffff;
+  border-radius: 6px;
+  font-size: 10px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.Mobile_category {
+  composes: category;
+}
